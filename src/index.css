@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: teal;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: 20px;
+}
+
+.timer-container h1 {
+  text-align: center;
+}
+
+.timer-container h2 {
+  margin: 0;
+}
+
+.actions-wrapper span {
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.clock-container {
+  border: 2px solid white;
+  border-radius: 50px;
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  width: 250px;
+  height: 200px;
+}
+
+.clock-container span {
+  font-size: 50px;
+}
+
+.clock-container h1 {
+  margin: 0 20px;
+}
